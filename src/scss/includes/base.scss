@@ -1,0 +1,60 @@
+.container {
+    width: 100%;
+    max-width: 1140px;
+
+    margin: 0 auto;
+
+    @media (max-width: 1024px) {
+        padding: 0 30px;
+    }
+}
+
+.title-prime {
+    color: white;
+    font: 48px 'Lato';
+    font-weight: 900;
+}
+
+.title-second {
+    font: 24px 'Lato';
+    font-weight: 700;
+    color: #777777;
+}
+
+.sub-title {
+    font: 24px 'Lato';
+    font-weight: 400;
+    color: white;
+}
+
+.title-italic {
+    font: 18px 'Lato';
+    font-style: italic;
+}
+
+.button {
+    min-width: 285px;
+    width: fit-content;
+    min-height: 70px;
+    box-sizing: border-box;
+    padding: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border-bottom: 10px solid;
+    font: 20px Lato;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 400;
+
+    &.sand {
+        background-color: #e1aa6e;
+        border-color: #ba8e5b;
+    }
+
+    &.water {
+        background-color: $main-color;
+        border-color: #008ea5;
+    }
+}
